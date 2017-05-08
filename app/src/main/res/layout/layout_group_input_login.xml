@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:padding="15dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/ed_name_group_login"
+            style="@style/style_group_login_input"
+            android:layout_below="@id/layout_logo">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/ed_name_login"
+                style="@style/style_input_login_text"
+                android:drawablePadding="8dp"
+                android:drawableLeft="@mipmap/icon_email_norl"
+                android:hint="@string/string_input_hint_name"/>
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/ed_pwd_group_login"
+            style="@style/style_group_login_input"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/ed_name_group_login">
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/ed_pwd_login"
+                style="@style/style_input_login_text"
+                android:inputType="textPassword"
+                android:drawableLeft="@mipmap/icon_password_norl"
+                android:drawablePadding="8dp"
+                android:hint="@string/string_input_hint_pwd"/>
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

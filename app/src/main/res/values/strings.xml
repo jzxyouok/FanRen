@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">凡人</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="jump">跳 转</string>
+    <string name="string_experience">立 即 体 验</string>
+    <string name="string_back">返  回</string>
+    <string name="string_register">注&#160;&#160;&#160;&#160;&#160;&#160;册</string>
+    <string name="string_input_hint_name">请 输 入 用 户 名</string>
+    <string name="string_input_hint_pwd">请 输 入 密 码</string>
+    <string name="string_login">登 录</string>
+    <string name="string_forget_password">忘 记 密 码？</string>
+    <string name="string_login_tip">其 他 登 录 方 式</string>
+    <string name="string_input_hint_code">请输入验证码</string>
+    <string name="string_input_hint_phone">请 输 入 手 机 号 码</string>
+    <string name="string_reset_password">重 置 密 码</string>
+    <string name="string_default" />
+    <string name="string_new_password">请 输 入 新 密 码</string>
+    <string name="string_confirm_password">请 确 认 新 密 码</string>
+    <string name="get_phone_code">获取验证码</string>
+    <string name="string_input_code">请 输 入 手 机 验 证 码</string>
+    <string name="index">首页</string>
+    <string name="ask">咨询</string>
+    <string name="chat">聊天</string>
+    <string name="dynamic">动态</string>
+    <string name="string_logout">退 出 账 号</string>
+    <string name="string_setting">账 号 设 置</string>
+    <string name="string_cancel">取 消</string>
+    <string name="string_confirm">确 定</string>
+
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time"></string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="string_information">个 人 信 息</string>
+    <string name="string_send_dynamic">发 送 动 态</string>
+    <string name="string_send">发 送</string>
+    <string name="string_hint_dynamic">说 点 什 么 呢...</string>
+    <string name="string_dynamic">动 态 信 息</string>
+</resources>
